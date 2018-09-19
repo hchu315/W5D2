@@ -1,0 +1,25 @@
+/* PHASE 2: Notifications */
+
+.badge {
+  flex: auto
+  display: inline;
+  font-size: 14px;
+  padding: 1px 6px;
+  background:
+}
+
+li:hover .badge {
+  background: #f00;
+}
+
+.header {
+  position: relative;
+  z-index: 1;
+}
+
+.header-list > li {
+  position: relative;
+}
+
+.header-notifications {
+  position: absolute;
